@@ -1,0 +1,47 @@
+$collections: (
+    mainset            8        7900,
+    otherset           8        7900,
+    );
+
+// all icons need to be listed here with its respective collection
+// compiler checks if the icon trully exists
+$allsets: (
+'mainset'     'firefox',
+'mainset'     'IE',
+'mainset'     'android',
+'mainset'     'apple',
+'mainset'     'chrome',
+'mainset'     'css3',
+'mainset'     'IcoMoon',
+'mainset'     'github',
+'mainset'     'html5',
+'mainset'     'opera',
+'mainset'     'safari',
+'mainset'     'windows8',
+);
+
+
+// collections with its icons and X coordinates to bkg position
+
+//  Mainset
+// - - - - - - - -
+$mainset: (
+'firefox'            0,
+'IE'                -9,
+'android'          -18,
+'apple'            -27,
+'chrome'           -36,
+'css3'             -45,
+'IcoMoon'          -54,
+'github'           -63,
+'html5'            -72,
+'opera'            -81,
+'safari'           -90,
+'windows8'         -99,
+);
+
+//  Otherset
+// - - - - - - - -
+$otherset: (
+);
+

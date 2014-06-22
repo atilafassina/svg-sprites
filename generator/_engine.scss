@@ -1,0 +1,98 @@
+@function convert-stringList($set-name) {
+    @if $set-name == 'mainset' {
+        @return $mainset;
+    } @else if $set-name == 'otherset' {
+        @return $otherset;
+    }
+}
+
+@function get-icon-coord($collection, $name) {
+    @each $icon in $collection {
+        $icon-name:  nth($icon, 1);
+        $icon-coord: nth($icon, 2);
+
+        @if $name == $icon-name {
+            @return $icon-coord;
+        }
+    }
+    @return "Check your spelling for #{$name}. I couldn't find it";
+}
+
+@function get-iconset($collection) {
+    @if ($collection == $mainset) {
+        @return 'mainset';
+    } @else if ($collection == $otherset) {
+        @return 'serieA';
+    } @else {
+        @return 'no collection found!';
+    }
+}
+
+@mixin get-iconSizes($targetSet) {
+    @each $icons in $collections {
+             $set-name: nth($icons, 1) !global;
+         $set-baseSize: nth($icons, 2) !global;
+        $set-totalSize: nth($icons, 3) !global;
+
+        @if ($set-name == 'mainset' and $set == 'mainset') {
+            $iconBaseSize: $set-baseSize !global;
+            $spriteBaseWidth: $set-totalSize !global;
+        } @else if ($set-name == 'otherset' and $set == 'otherset') {
+            $iconBaseSize: $set-baseSize !global;
+            $spriteBaseWidth: $set-totalSize !global;
+
+        }
+    }
+}
+
+@mixin icon($collection, $iconname, $scale) {
+    // fetch coordinates for bkg-position
+          $coordX: get-icon-coord($collection, $iconname);
+    // fetch collection name
+         $iconset: get-iconset($collection);
+        $svg-path: '#{$icons-path}/#{$iconset}.svg';
+        $png-path: '#{$icons-path}/#{$iconset}.png';
+    $big-png-path: '#{$icons-path}/big/#{$iconset}.png';
+    // fetch size variables
+    @include get-iconSizes($iconset);
+
+    @if $modern-browser == true {
+        background-image: url($svg-path);
+    } @else {
+        @if $scale < 4 {
+            background-image: url($png-path);
+
+        } @else if $scale >= 4 {
+            background-image: url($big-png-path);
+        }
+    }
+    width:  ($scale * $iconBaseSize) * 1px;
+    height: ($scale * $iconBaseSize) * 1px;
+    background-size: (($scale * $spriteBaseWidth) * 1px) auto;
+    background-position: (($scale * $coordX) * 1px);
+    display: inline-block;
+}
+
+@each $icon in $allsets {
+    $collection-name: nth($icon, 1);
+    @if $collection-name == $set {
+        $icon-collection: convert-stringList($collection-name);
+        $icon-name: nth($icon, 2);
+
+        .#{$icon-name}16 {
+            @include icon($icon-collection, #{$icon-name}, 2);
+        }
+        .#{$icon-name}24 {
+            @include icon($icon-collection, #{$icon-name}, 3);
+        }
+        .#{$icon-name}32 {
+            @include icon($icon-collection, #{$icon-name}, 4);
+        }
+        .#{$icon-name}64 {
+            @include icon($icon-collection, #{$icon-name}, 8);
+        }
+
+    } @else {
+        // false;
+    }
+}

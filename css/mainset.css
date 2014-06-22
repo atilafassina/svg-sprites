@@ -1,0 +1,431 @@
+.firefox16 {
+  background-image: url("/sprites/mainset.svg");
+  width: 16px;
+  height: 16px;
+  background-size: 15800px auto;
+  background-position: 0px;
+  display: inline-block;
+}
+
+.firefox24 {
+  background-image: url("/sprites/mainset.svg");
+  width: 24px;
+  height: 24px;
+  background-size: 23700px auto;
+  background-position: 0px;
+  display: inline-block;
+}
+
+.firefox32 {
+  background-image: url("/sprites/mainset.svg");
+  width: 32px;
+  height: 32px;
+  background-size: 31600px auto;
+  background-position: 0px;
+  display: inline-block;
+}
+
+.firefox64 {
+  background-image: url("/sprites/mainset.svg");
+  width: 64px;
+  height: 64px;
+  background-size: 63200px auto;
+  background-position: 0px;
+  display: inline-block;
+}
+
+.IE16 {
+  background-image: url("/sprites/mainset.svg");
+  width: 16px;
+  height: 16px;
+  background-size: 15800px auto;
+  background-position: -18px;
+  display: inline-block;
+}
+
+.IE24 {
+  background-image: url("/sprites/mainset.svg");
+  width: 24px;
+  height: 24px;
+  background-size: 23700px auto;
+  background-position: -27px;
+  display: inline-block;
+}
+
+.IE32 {
+  background-image: url("/sprites/mainset.svg");
+  width: 32px;
+  height: 32px;
+  background-size: 31600px auto;
+  background-position: -36px;
+  display: inline-block;
+}
+
+.IE64 {
+  background-image: url("/sprites/mainset.svg");
+  width: 64px;
+  height: 64px;
+  background-size: 63200px auto;
+  background-position: -72px;
+  display: inline-block;
+}
+
+.android16 {
+  background-image: url("/sprites/mainset.svg");
+  width: 16px;
+  height: 16px;
+  background-size: 15800px auto;
+  background-position: -36px;
+  display: inline-block;
+}
+
+.android24 {
+  background-image: url("/sprites/mainset.svg");
+  width: 24px;
+  height: 24px;
+  background-size: 23700px auto;
+  background-position: -54px;
+  display: inline-block;
+}
+
+.android32 {
+  background-image: url("/sprites/mainset.svg");
+  width: 32px;
+  height: 32px;
+  background-size: 31600px auto;
+  background-position: -72px;
+  display: inline-block;
+}
+
+.android64 {
+  background-image: url("/sprites/mainset.svg");
+  width: 64px;
+  height: 64px;
+  background-size: 63200px auto;
+  background-position: -144px;
+  display: inline-block;
+}
+
+.apple16 {
+  background-image: url("/sprites/mainset.svg");
+  width: 16px;
+  height: 16px;
+  background-size: 15800px auto;
+  background-position: -54px;
+  display: inline-block;
+}
+
+.apple24 {
+  background-image: url("/sprites/mainset.svg");
+  width: 24px;
+  height: 24px;
+  background-size: 23700px auto;
+  background-position: -81px;
+  display: inline-block;
+}
+
+.apple32 {
+  background-image: url("/sprites/mainset.svg");
+  width: 32px;
+  height: 32px;
+  background-size: 31600px auto;
+  background-position: -108px;
+  display: inline-block;
+}
+
+.apple64 {
+  background-image: url("/sprites/mainset.svg");
+  width: 64px;
+  height: 64px;
+  background-size: 63200px auto;
+  background-position: -216px;
+  display: inline-block;
+}
+
+.chrome16 {
+  background-image: url("/sprites/mainset.svg");
+  width: 16px;
+  height: 16px;
+  background-size: 15800px auto;
+  background-position: -72px;
+  display: inline-block;
+}
+
+.chrome24 {
+  background-image: url("/sprites/mainset.svg");
+  width: 24px;
+  height: 24px;
+  background-size: 23700px auto;
+  background-position: -108px;
+  display: inline-block;
+}
+
+.chrome32 {
+  background-image: url("/sprites/mainset.svg");
+  width: 32px;
+  height: 32px;
+  background-size: 31600px auto;
+  background-position: -144px;
+  display: inline-block;
+}
+
+.chrome64 {
+  background-image: url("/sprites/mainset.svg");
+  width: 64px;
+  height: 64px;
+  background-size: 63200px auto;
+  background-position: -288px;
+  display: inline-block;
+}
+
+.css316 {
+  background-image: url("/sprites/mainset.svg");
+  width: 16px;
+  height: 16px;
+  background-size: 15800px auto;
+  background-position: -90px;
+  display: inline-block;
+}
+
+.css324 {
+  background-image: url("/sprites/mainset.svg");
+  width: 24px;
+  height: 24px;
+  background-size: 23700px auto;
+  background-position: -135px;
+  display: inline-block;
+}
+
+.css332 {
+  background-image: url("/sprites/mainset.svg");
+  width: 32px;
+  height: 32px;
+  background-size: 31600px auto;
+  background-position: -180px;
+  display: inline-block;
+}
+
+.css364 {
+  background-image: url("/sprites/mainset.svg");
+  width: 64px;
+  height: 64px;
+  background-size: 63200px auto;
+  background-position: -360px;
+  display: inline-block;
+}
+
+.IcoMoon16 {
+  background-image: url("/sprites/mainset.svg");
+  width: 16px;
+  height: 16px;
+  background-size: 15800px auto;
+  background-position: -108px;
+  display: inline-block;
+}
+
+.IcoMoon24 {
+  background-image: url("/sprites/mainset.svg");
+  width: 24px;
+  height: 24px;
+  background-size: 23700px auto;
+  background-position: -162px;
+  display: inline-block;
+}
+
+.IcoMoon32 {
+  background-image: url("/sprites/mainset.svg");
+  width: 32px;
+  height: 32px;
+  background-size: 31600px auto;
+  background-position: -216px;
+  display: inline-block;
+}
+
+.IcoMoon64 {
+  background-image: url("/sprites/mainset.svg");
+  width: 64px;
+  height: 64px;
+  background-size: 63200px auto;
+  background-position: -432px;
+  display: inline-block;
+}
+
+.github16 {
+  background-image: url("/sprites/mainset.svg");
+  width: 16px;
+  height: 16px;
+  background-size: 15800px auto;
+  background-position: -126px;
+  display: inline-block;
+}
+
+.github24 {
+  background-image: url("/sprites/mainset.svg");
+  width: 24px;
+  height: 24px;
+  background-size: 23700px auto;
+  background-position: -189px;
+  display: inline-block;
+}
+
+.github32 {
+  background-image: url("/sprites/mainset.svg");
+  width: 32px;
+  height: 32px;
+  background-size: 31600px auto;
+  background-position: -252px;
+  display: inline-block;
+}
+
+.github64 {
+  background-image: url("/sprites/mainset.svg");
+  width: 64px;
+  height: 64px;
+  background-size: 63200px auto;
+  background-position: -504px;
+  display: inline-block;
+}
+
+.html516 {
+  background-image: url("/sprites/mainset.svg");
+  width: 16px;
+  height: 16px;
+  background-size: 15800px auto;
+  background-position: -144px;
+  display: inline-block;
+}
+
+.html524 {
+  background-image: url("/sprites/mainset.svg");
+  width: 24px;
+  height: 24px;
+  background-size: 23700px auto;
+  background-position: -216px;
+  display: inline-block;
+}
+
+.html532 {
+  background-image: url("/sprites/mainset.svg");
+  width: 32px;
+  height: 32px;
+  background-size: 31600px auto;
+  background-position: -288px;
+  display: inline-block;
+}
+
+.html564 {
+  background-image: url("/sprites/mainset.svg");
+  width: 64px;
+  height: 64px;
+  background-size: 63200px auto;
+  background-position: -576px;
+  display: inline-block;
+}
+
+.opera16 {
+  background-image: url("/sprites/mainset.svg");
+  width: 16px;
+  height: 16px;
+  background-size: 15800px auto;
+  background-position: -162px;
+  display: inline-block;
+}
+
+.opera24 {
+  background-image: url("/sprites/mainset.svg");
+  width: 24px;
+  height: 24px;
+  background-size: 23700px auto;
+  background-position: -243px;
+  display: inline-block;
+}
+
+.opera32 {
+  background-image: url("/sprites/mainset.svg");
+  width: 32px;
+  height: 32px;
+  background-size: 31600px auto;
+  background-position: -324px;
+  display: inline-block;
+}
+
+.opera64 {
+  background-image: url("/sprites/mainset.svg");
+  width: 64px;
+  height: 64px;
+  background-size: 63200px auto;
+  background-position: -648px;
+  display: inline-block;
+}
+
+.safari16 {
+  background-image: url("/sprites/mainset.svg");
+  width: 16px;
+  height: 16px;
+  background-size: 15800px auto;
+  background-position: -180px;
+  display: inline-block;
+}
+
+.safari24 {
+  background-image: url("/sprites/mainset.svg");
+  width: 24px;
+  height: 24px;
+  background-size: 23700px auto;
+  background-position: -270px;
+  display: inline-block;
+}
+
+.safari32 {
+  background-image: url("/sprites/mainset.svg");
+  width: 32px;
+  height: 32px;
+  background-size: 31600px auto;
+  background-position: -360px;
+  display: inline-block;
+}
+
+.safari64 {
+  background-image: url("/sprites/mainset.svg");
+  width: 64px;
+  height: 64px;
+  background-size: 63200px auto;
+  background-position: -720px;
+  display: inline-block;
+}
+
+.windows816 {
+  background-image: url("/sprites/mainset.svg");
+  width: 16px;
+  height: 16px;
+  background-size: 15800px auto;
+  background-position: -198px;
+  display: inline-block;
+}
+
+.windows824 {
+  background-image: url("/sprites/mainset.svg");
+  width: 24px;
+  height: 24px;
+  background-size: 23700px auto;
+  background-position: -297px;
+  display: inline-block;
+}
+
+.windows832 {
+  background-image: url("/sprites/mainset.svg");
+  width: 32px;
+  height: 32px;
+  background-size: 31600px auto;
+  background-position: -396px;
+  display: inline-block;
+}
+
+.windows864 {
+  background-image: url("/sprites/mainset.svg");
+  width: 64px;
+  height: 64px;
+  background-size: 63200px auto;
+  background-position: -792px;
+  display: inline-block;
+}
